@@ -1,6 +1,7 @@
 package firstProjectJAVA;
 
 public class Utilisateur {
+	public String test;
 	public Long idUtilisateur;
 	public String nomUtilisateur;
 <<<<<<< HEAD
