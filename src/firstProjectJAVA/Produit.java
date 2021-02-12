@@ -12,7 +12,7 @@ public class Produit {
 	}
 	@Override
 	public String toString() {
-		return "Produit [idProduit=" + idProduit + ", codeProduit=" + code + "]";
+		return "Produit [idProduit=" + idProduit + ", codeProduit=" + code +"]";
 	}
 	
 	
