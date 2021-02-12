@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\33625\Desktop\FNE 34\Semaine 1\J3\workspace_git\firstProjectJAVA"/>
+			<item value="C:\Users\33625\Desktop\FNE 34\Semaine 1\J3\workspace_git\firstProjectJAVA-master"/>
+			<item value="C:\Users\33625\Desktop\FNE 34\Semaine 1\J3\workspace_git\firstProjectJAVA\src\firstProjectJAVA"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>
