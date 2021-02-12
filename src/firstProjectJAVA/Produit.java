@@ -14,11 +14,15 @@ public class Produit {
 		this.code = code;
 		this.nbreProduit = nbrProduit;
 		this.nbrStock = nbrStock;
+
 	}
+
 	@Override
 	public String toString() {
-		return "Produit [idProduit=" + idProduit + ", codeProduit=" + code +"]";
+		return "Produit [idProduit=" + idProduit + ", code=" + code + ", nbreProduit=" + nbreProduit + ", nbrStock="
+				+ nbrStock + "]";
 	}
+
 	
 	
 	
