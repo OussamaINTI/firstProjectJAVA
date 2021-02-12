@@ -7,7 +7,7 @@ public class Utilisateur {
 	public String prenomUtilisateur;
 	public String usernameUtilisateur;
 	public String passwordUtilisateur;
-
+	
 	public Utilisateur() {
 	}
 	
@@ -27,14 +27,28 @@ public class Utilisateur {
 		this.usernameUtilisateur = usernameUtilisateur;
 		this.passwordUtilisateur = passwordUtilisateur;
 	}
+	
 
+	public Utilisateur(String test, Long idUtilisateur, String nomUtilisateur, String prenomUtilisateur,
+			String usernameUtilisateur, String passwordUtilisateur) {
+		super();
+		this.test = test;
+		this.idUtilisateur = idUtilisateur;
+		this.nomUtilisateur = nomUtilisateur;
+		this.prenomUtilisateur = prenomUtilisateur;
+		this.usernameUtilisateur = usernameUtilisateur;
+		this.passwordUtilisateur = passwordUtilisateur;
+	}
 
 	@Override
 	public String toString() {
-		return "Utilisateur [idUtilisateur=" + idUtilisateur + ", nomUtilisateur=" + nomUtilisateur
-
-				+ ", prenomUtilisateur=" + prenomUtilisateur + ", usernameUtilisateur=" + usernameUtilisateur + ", passwordUtilisateur=" + passwordUtilisateur
-				+ "]";
+		return "Utilisateur [test=" + test + ", idUtilisateur=" + idUtilisateur + ", nomUtilisateur=" + nomUtilisateur
+				+ ", prenomUtilisateur=" + prenomUtilisateur + ", usernameUtilisateur=" + usernameUtilisateur
+				+ ", passwordUtilisateur=" + passwordUtilisateur + "]";
 	}
-
+	
 }
+
+
+
+
