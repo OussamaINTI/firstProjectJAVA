@@ -1,8 +1,10 @@
 package firstProjectJAVA;
 
 public class Utilisateur {
+	public String test;
 	public Long idUtilisateur;
 	public String nomUtilisateur;
+
 	public String prenomUtilisateur,username,password;
 
 	public Utilisateur() {
@@ -14,16 +16,16 @@ public class Utilisateur {
 		this.prenomUtilisateur = prenomUtilisateur;
 		this.password = password;
 		this.username=username;
+
 	}
 
 	@Override
 	public String toString() {
 		return "Utilisateur [idUtilisateur=" + idUtilisateur + ", nomUtilisateur=" + nomUtilisateur
+
 				+ ", prenomUtilisateur=" + prenomUtilisateur + ", username=" + username + ", password=" + password
 				+ "]";
 	}
-
-
 
 
 }
