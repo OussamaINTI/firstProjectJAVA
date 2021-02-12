@@ -4,8 +4,8 @@ public class Utilisateur {
 	public Long idUtilisateur;
 	public String nomUtilisateur;
 	public String prenomUtilisateur;
-	public String username;
-	public String password;
+	public String usernameUtilisateur;
+	public String passwordUtilisateur;
 
 	public Utilisateur() {
 	}
@@ -17,20 +17,20 @@ public class Utilisateur {
 		this.prenomUtilisateur = prenomUtilisateur;
 	}
 
-	public Utilisateur(Long idUtilisateur, String nomUtilisateur, String prenomUtilisateur, String username,
-			String password) {
+	public Utilisateur(Long idUtilisateur, String nomUtilisateur, String prenomUtilisateur, String usernameUtilisateur,
+			String passwordUtilisateur) {
 		super();
 		this.idUtilisateur = idUtilisateur;
 		this.nomUtilisateur = nomUtilisateur;
 		this.prenomUtilisateur = prenomUtilisateur;
-		this.username = username;
-		this.password = password;
+		this.usernameUtilisateur = usernameUtilisateur;
+		this.passwordUtilisateur = passwordUtilisateur;
 	}
 
 	@Override
 	public String toString() {
 		return "Utilisateur [idUtilisateur=" + idUtilisateur + ", nomUtilisateur=" + nomUtilisateur
-				+ ", prenomUtilisateur=" + prenomUtilisateur + ", username=" + username + ", password=" + password
+				+ ", prenomUtilisateur=" + prenomUtilisateur + ", usernameUtilisateur=" + usernameUtilisateur + ", passwordUtilisateur=" + passwordUtilisateur
 				+ "]";
 	}
 
